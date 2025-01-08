@@ -21,10 +21,7 @@ export function Homepage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex flex-col items-center justify-center p-4 text-white">
       <div className="max-w-6xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl">
-        <h1 className="text-4xl font-bold mb-6 text-center">Simple Discord Webhook Proxy</h1>
-        <p className="text-xl mb-8 text-center">
-          Seamlessly proxy Discord webhooks through Vercel, primarily for Roblox.
-        </p>
+        <h1 className="text-4xl font-bold mb-6 text-center">Discord Webhook Proxy</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
@@ -68,7 +65,7 @@ export function Homepage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           <Feature
             icon={<Zap className="w-8 h-8" />}
             title="Easy to Integrate"
@@ -89,9 +86,9 @@ export function Homepage() {
             title="Ratelimit Handling"
             description="Use POST /api/webhooks/:id/:token/queue, to automatically queue requests."
           />
-        </div>
+        </div> */}
 
-        <div className="flex flex-col items-center space-y-4">
+        {/* <div className="flex flex-col items-center space-y-4">
           <a
             href="https://vercel.com/new/clone?repository-url=https://github.com/star-ot/simple-discord-webhooks-proxy"
             target="_blank"
@@ -110,13 +107,13 @@ export function Homepage() {
             <Github className="w-5 h-5 mr-2" />
             View source on GitHub
           </a>
-        </div>
+        </div> */}
       </div>
-      <footer className="mt-8 text-sm text-white/70 flex items-center justify-center">
+      {/* <footer className="mt-8 text-sm text-white/70 flex items-center justify-center">
         <span className="mr-1">Inspired by Lewisakura&apos;s </span>
         <a href="https://github.com/lewisakura/webhook-proxy" className="hover:underline mr-4">Webhook Proxy</a>
         <span>Made with ❤️ by <a target = "_blank" href="https://starvsk.dev">StarVSK</a></span>
-      </footer>
+      </footer> */}
     </div>
   )
 }
