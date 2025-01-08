@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Simple Webhook Discord Proxy",
-  description: "A simple webhook proxy for forwarding Webhook requests to Discord.",
+  title: "VSEC Proxy",
+  description: "Webhook Proxy.",
 };
 
 export default function RootLayout({
